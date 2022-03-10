@@ -1,0 +1,11 @@
+name: wisp3d
+channels:
+  - cadquery
+  - conda-forge
+  - defaults
+dependencies:
+  - cadquery=master
+  - attrs
+  - cattrs
+  - black
+  - pyyaml

@@ -1,0 +1,13 @@
+pegboard:
+  width: 560
+  height: 560
+  thickness: 5
+  holes:
+    bottom_hole_center: [40, 20]
+    interval: [40, 20]
+    size: [5, 15]
+    shift_per_row: 20
+holders:
+  - spool_thickness: [83, 83, 83, 83, 83, 83]
+    expand: True
+    pos: [0, 0]
