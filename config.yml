@@ -12,6 +12,9 @@ pegboard:
     # Each next row is shifted by that value
     shift_per_row: 20
 holders:
-  - spool_thickness: [83, 83, 83, 83, 83, 83]
+  - # Required thickness of spools
+    spool_thickness: [83, 83, 83, 83, 83, 83]
+    # Whether to 'wide' spools if there is extra space to the right
     expand: True
+    # Left-bottom of the row
     pos: [0, 0]
