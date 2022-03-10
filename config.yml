@@ -3,9 +3,13 @@ pegboard:
   height: 560
   thickness: 5
   holes:
+    # Position of left-bottom hole center
     bottom_hole_center: [40, 20]
+    # Interval between holes in a row & interval between rows
     interval: [40, 20]
+    # Size of holes, doesn't affect anything right now except pegboard model
     size: [5, 15]
+    # Each next row is shifted by that value
     shift_per_row: 20
 holders:
   - spool_thickness: [83, 83, 83, 83, 83, 83]
